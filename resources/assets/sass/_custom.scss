@@ -1,0 +1,154 @@
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #341A54;
+   color: white;
+   text-align: center;
+}
+
+i.fa-home {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.5em 0.6em;
+  background-color: #341A54;
+  box-shadow: 0 0 8px white;
+
+}
+
+i.fa-heartbeat {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.5em 0.6em;
+  background-color: #FF4053;
+  box-shadow: 0 0 8px white;
+
+}
+
+i.fa-mobile {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.5em .8em;
+  background-color: #8DC63F;
+  box-shadow: 0 0 8px white;
+
+}
+
+i.fa-hand-pointer-o {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.5em 0.6em;
+  background-color: #EF0085;
+  box-shadow: 0 0 8px white;
+
+}
+
+i.fa-comment {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.5em 0.6em;
+  background-color: #271D76;
+  box-shadow: 0 0 8px white;
+
+}
+
+i.fa-user-o {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1.5em 1.5em;
+  box-shadow: 0 0 8px white;
+
+}
+
+i.fa-commenting-o {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1.5em 1.5em;
+  box-shadow: 0 0 8px white;
+
+}
+i.fa-credit-card {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1.5em 1.5em;
+  box-shadow: 0 0 8px white;
+
+}
+
+
+
+#nav-top
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #391C5B;
+  opacity: 1;
+
+}
+
+.nav-top-left
+{
+  float: left;
+  width: 20%;
+}
+
+
+.nav-top-right
+{
+  float: right;
+  font-family:Trueno;
+  font-size: 0;
+}
+
+.nav-top-right a {
+    display: inline-block;
+    color: white;
+    font-size: .7vw;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-top-right a:hover {
+    color: #D4047F;
+}
+
+
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #63309E;
+}
+
+#nav li {
+    float: left;
+    font-family:Trueno;
+    font-size: 1.4vw;
+    width: 20%;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active, #nav li a:hover {
+    background-color: #7C3DC4;
+    text-decoration: none;
+    color: white;
+}
+
+#nav li a:hover {
+    background-color: #7C3DC4;
+    text-decoration: none;
+    color: white;
+}
