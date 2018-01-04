@@ -48,8 +48,8 @@ if it's not present, don't show loader */
   @yield('content')
 
   <div class="footer">
-    <h6 style="float:left;margin:1% 1% 1% 1%">FOLLOW US:&nbsp;&nbsp;<span><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
-    <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span> </h6>
+    <h6 style="float:left;margin:1% 1%">FOLLOW US:&nbsp;&nbsp; <h1  style="float:left;margin:1% 1%"><a href="https://www.facebook.com/zapaul33"><span><i class="fa fa-facebook-square" aria-hidden="true"></i></span></a>
+    <a href="https://www.twitter.com/zapaul33"><span><i class="fa fa-twitter-square" aria-hidden="true"></i></span></a></h1></h6>
     <p style="float:right;margin:1% 1% 1% 1%">Powered by CP33</p>
   </div>
 

@@ -1,9 +1,9 @@
 
 <ul id="nav-top">
-  <li class="nav-top-left"> <img style="width:60%;height:60%;margin:10px 50px 10px" src="uploads/logo.svg" alt=""> </li>
-  <li class="nav-top-right"><a href="#"><span><i class="fa fa-commenting-o" aria-hidden="true"></i></span><br>CONTACT</a></li>
-  <li class="nav-top-right"><a href="#"><span><i class="fa fa-user-o" aria-hidden="true"></i></span><br>LOG IN</a></li>
-    <li class="nav-top-right"><a href="#"><span><i class="fa fa-credit-card" aria-hidden="true"></i></span><br>CASH IN</a></li>
+  <li class="nav-top-left"><a href="{{ URL::to('/') }}"><img style="width:60%;height:60%;margin:10px 50px 10px" src="uploads/logo.svg" alt=""></a> </li>
+  <li class="nav-top-right"><a href="#"><h4><span><i class="fa fa-commenting-o" aria-hidden="true"></i></span></h4>CONTACT</a></li>
+  <li class="nav-top-right"><a href="{{ URL::to('login') }}"><h4><span><i class="fa fa-user-o" aria-hidden="true"></i></span></h4>LOG IN</a></li>
+    <li class="nav-top-right"><a href="#"> <h4><span><i class="fa fa-credit-card" aria-hidden="true"></i></span></h4>CASH IN</a></li>
 
 </ul>
 
